@@ -2,7 +2,7 @@
 Este proyecto es creado con el fin de presentar algunos de mis proyectos, así como mi curriculum vitae y tecnologías aprendidas.
 
 ## Tecnologias usadas
-• Html
-• Css
-• Bootstrap
-• Angular
+- Html
+- Css
+- Bootstrap
+- Angular
