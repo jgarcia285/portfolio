@@ -1,1 +1,23 @@
-<p>navbar works!</p>
+<nav class="container d-flex justify-content-between py-3 fs-4">
+    <img src="#" alt="logo" class="img-fluid">
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Proyectos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sobre Mi</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+        </li>
+
+        <button (click)="changeTheme()" id="switch">
+            <span *ngIf="isDarkMode"><i class="fas fa-moon"></i></span>
+            <span *ngIf="!isDarkMode"><i class="fas fa-sun"></i></span>
+
+        </button>
+    </ul>
+</nav>

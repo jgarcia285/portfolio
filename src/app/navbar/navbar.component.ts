@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  theme: string = 'dark-theme';
+  isDarkMode: boolean = true;
+
+  constructor(
+    private renderer: Renderer2
+  ) { }
 
   ngOnInit(): void {
+    this.initialTheme()
+  }
+
+  initialTheme() {
+    this.renderer.addClass(document.body, this.theme)
+  }
+
+  changeTheme(): void {
+    if(this.isDarkMode){
+      this.renderer.removeClass(document.body, 'dark-theme')
+      this.isDarkMode = false;
+    } else {
+      this.renderer.addClass(document.body, this.theme)
+      this.isDarkMode = true;
+    }
   }
 
 }
