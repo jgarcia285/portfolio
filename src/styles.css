@@ -1,4 +1,35 @@
 .dark-theme {
     background-color: #111;
     color: #fff;
+    font-family: serif;
+}
+
+body[class=""] {
+    font-family: serif;
+}
+
+.card{
+    background: radial-gradient(circle, rgba(145,145,145,1) 0%, rgba(51,51,51,1) 100%);
+    color: #fff;
+}
+
+footer {
+    background: radial-gradient(circle, rgba(145,145,145,1) 0%, rgba(51,51,51,1) 100%);
+    color: #fff;
+}
+
+p {
+    font-size: 22px;
+}
+
+li {
+    font-size: 22px;
+}
+
+.subtitle {
+    font-size: 36px;
+}
+
+a {
+    font-size: 22px;
 }

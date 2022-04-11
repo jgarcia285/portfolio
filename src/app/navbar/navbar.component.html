@@ -1,23 +1,25 @@
-<nav class="container d-flex justify-content-between py-3 fs-4">
-    <img src="#" alt="logo" class="img-fluid">
-    <ul class="nav">
-        <li class="nav-item">
-            <a class="nav-link" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Sobre Mi</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-        </li>
+<nav class="navbar navbar-default fixed-top">
+    <div class="container d-flex justify-content-between fs-4">
+        <img src="#" alt="logo" class="img-fluid">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about-me">Sobre Mi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#proyects">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacto</a>
+            </li>
 
-        <button (click)="changeTheme()" id="switch">
-            <span *ngIf="isDarkMode"><i class="fas fa-moon"></i></span>
-            <span *ngIf="!isDarkMode"><i class="fas fa-sun"></i></span>
+            <button (click)="changeTheme()" id="switch">
+                <span *ngIf="isDarkMode"><i class="fas fa-moon"></i></span>
+                <span *ngIf="!isDarkMode"><i class="fas fa-sun"></i></span>
 
-        </button>
-    </ul>
+            </button>
+        </ul>
+    </div>
 </nav>

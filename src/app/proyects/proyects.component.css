@@ -1,0 +1,17 @@
+.card{
+    background: radial-gradient(circle, rgba(145,145,145,1) 0%, rgba(51,51,51,1) 100%);
+    color: #fff;
+}
+
+.redirect{
+    background: linear-gradient(90deg, rgba(0,35,129,1) 0%, rgba(61,145,245,1) 100%);
+    color: #FFF;
+    padding: 10px;
+    margin-right: 4px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.redirect:hover{
+    background: linear-gradient(90deg, rgba(0,74,129,1) 0%, rgba(61,201,245,1) 100%);
+}
