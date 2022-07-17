@@ -1,4 +1,5 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-navbar',
@@ -7,6 +8,8 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  Sun = faSun;
+  Moon = faMoon;
   theme: string = 'dark-theme';
   isDarkMode: boolean = true;
 

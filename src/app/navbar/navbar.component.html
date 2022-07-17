@@ -1,10 +1,7 @@
-<nav class="navbar navbar-default fixed-top">
+<nav class="navbar navbar-default">
     <div class="container d-flex justify-content-between fs-4">
-        <img src="#" alt="logo" class="img-fluid">
+            <a class="nav-link" href="/">Inicio</a>
         <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
-            </li>
             <li class="nav-item">
                 <a class="nav-link" href="#about-me">Sobre Mi</a>
             </li>
@@ -16,8 +13,8 @@
             </li>
 
             <button (click)="changeTheme()" id="switch">
-                <span *ngIf="isDarkMode"><i class="fas fa-moon"></i></span>
-                <span *ngIf="!isDarkMode"><i class="fas fa-sun"></i></span>
+                <span *ngIf="isDarkMode" class="moon"><fa-icon [icon]="Moon"></fa-icon></span>
+                <span *ngIf="!isDarkMode" class="sun"><fa-icon [icon]="Sun"></fa-icon></span>
 
             </button>
         </ul>

@@ -5,16 +5,16 @@
     overflow: hidden;
 }
 
-.fa-moon{
+.moon{
     color: #fff;
 }
 
-.fa-sun{
+.sun{
     color: orange;
 }
 
 nav {
-    background: radial-gradient(circle, rgba(145,145,145,1) 0%, rgba(51,51,51,1) 100%);
+    background: radial-gradient(circle, rgba(36,36,36,1) 0%, rgba(73,73,73,1) 0%, rgba(119,119,119,1) 100%);
 }
 
 .nav-link {

@@ -11,3 +11,15 @@
 .redirect:hover{
     background: linear-gradient(90deg, rgba(0,74,129,1) 0%, rgba(61,201,245,1) 100%);
 }
+
+.cv {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.cv:hover{
+    color: #fff;
+}
