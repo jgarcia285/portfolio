@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default">
-    <div class="container d-flex justify-content-between fs-4" id="home">
+    <div class="container d-flex justify-content-center justify-content-md-between fs-4 align-items-center" id="home">
             <a class="nav-link" href="#home">Inicio</a>
         <ul class="nav">
             <li class="nav-item">
@@ -11,12 +11,13 @@
             <li class="nav-item">
                 <a class="nav-link" href="#contact">Contacto</a>
             </li>
+        </ul>
 
-            <button (click)="changeTheme()" id="switch">
+            <button (click)="changeTheme()" id="switch" class="nav">
                 <span *ngIf="isDarkMode" class="moon"><fa-icon [icon]="Moon"></fa-icon></span>
                 <span *ngIf="!isDarkMode" class="sun"><fa-icon [icon]="Sun"></fa-icon></span>
 
             </button>
-        </ul>
+       
     </div>
 </nav>
