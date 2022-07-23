@@ -9,4 +9,5 @@ export class AppComponent {
 
   title: string = 'portfolio';
   year: number = new Date().getFullYear();
+
 }

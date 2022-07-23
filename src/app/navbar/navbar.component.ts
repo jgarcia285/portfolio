@@ -1,5 +1,6 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-navbar',
@@ -8,6 +9,8 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 })
 export class NavbarComponent implements OnInit {
 
+  Github = faGithub;
+  Linkedin = faLinkedinIn;
   Sun = faSun;
   Moon = faMoon;
   theme: string = 'dark-theme';
